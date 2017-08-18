@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Journl</string>
+    <string name="title_activity_journl">JournlActivity</string>
 </resources>
