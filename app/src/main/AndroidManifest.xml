@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="dani2pix.journl">
+    
+    
+    <permission android:name="android.permission.READ_CALENDAR"/>
+    <permission android:name="android.permission.WRITE_CALENDAR"/>
 
     <application
         android:allowBackup="true"
@@ -11,6 +15,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".JournlActivity"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_journl"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
